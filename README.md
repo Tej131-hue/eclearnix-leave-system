@@ -26,4 +26,3 @@ eclearnix-leave-system/
 4. Manager approves/rejects  
 5. Employee sees live status update
 
-6. 
