@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ECLEARNIX Leave Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>ECLEARNIX Employee Leave Portal</h2>
+
+  <form id="leaveForm">
+    <input type="text" id="name" placeholder="Employee Name" required>
+    <input type="text" id="reason" placeholder="Reason for Leave" required><br>
+    From: <input type="date" id="from" required>
+    To: <input type="date" id="to" required>
+    <button type="submit">Submit Leave</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>From</th>
+        <th>To</th>
+        <th>Status</th>
+        <th>Reviewed Time</th>
+      </tr>
+    </thead>
+    <tbody id="requests"></tbody>
+  </table>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-database-compat.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
