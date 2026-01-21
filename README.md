@@ -3,11 +3,13 @@
 A lightweight, real-time **internal leave management system** built as a contribution project during my internship at **ECLEARNIX**.  
 This system digitizes the traditional leave request workflow, making employee leave submission and managerial approval fast, transparent, and paperless
 
+
 [Employee portal]
 https://tej131-hue.github.io/eclearnix-leave-system/
 
 [Admin portal]
 https://YOUR_USERNAME.github.io/eclearnix-leave-system/admin.html
+
 
 
 eclearnix-leave-system/
@@ -17,6 +19,7 @@ eclearnix-leave-system/
 ├── style.css → UI Styling
 ├── app.js → Firebase Logic
 └── README.md → Project Documentation
+
 
 ## 🚀 How It Works
 
