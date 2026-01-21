@@ -4,6 +4,8 @@ A lightweight, real-time **internal leave management system** built as a contrib
 This system digitizes the traditional leave request workflow, making employee leave submission and managerial approval fast, transparent, and paperless
 
 
+
+
 [Employee portal]
 https://tej131-hue.github.io/eclearnix-leave-system/
 
